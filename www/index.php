@@ -34,7 +34,6 @@ $view = $app->view();
 $view->parserOptions = array(
     'debug' => $app->config('twig.debug'),
     'cache' => $app->config('twig.cache_path'),
-    ''
 );
 /**
  * add Twig parser extensions for Slim
