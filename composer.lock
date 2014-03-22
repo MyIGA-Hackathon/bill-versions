@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "01e7b706cad0cdaa5138c6076ec61674",
+    "hash": "bdef007282453ef88f92ad2dcd52b092",
     "packages": [
         {
             "name": "funkatron/funit",
