@@ -32,4 +32,15 @@ class ApiClient extends Resty
 
         $this->app = $app;
     }
+
+
+    public function sendRequest($url, $method = 'GET', $querydata = null, $headers = null, $options = null)
+    {
+        if (!$headers) {
+            $headers = array();
+        }
+        $headers['Accept'] = "application/vnd.myiga.v1+json";
+        $headers['Authorization'] = "Token " . $this->app->config('myiga.api.key');
+        return parent::sendRequest($url, $method, $querydata, $headers, $options);
+    }
 }
