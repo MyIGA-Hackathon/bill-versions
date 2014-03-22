@@ -29,4 +29,8 @@ $BASE_APP_SETTINGS = [
 
     "csrf.secret" => "FIX ME",
 
+    "myiga.api.base" => "https://api.iga.in.gov/",
+    "myiga.api.key" => "FIX_ME",
+
+
 ];
