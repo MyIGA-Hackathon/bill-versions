@@ -13,7 +13,7 @@ use Monolog\Handler\ErrorLogHandler;
  * $APP_SETTINGS is assigned inside the app-settings.php file
  */
 include "{$BASE_PATH}/app/app-settings.php";
-$app = new \Slim\Slim($APP_SETTINGS);
+$app = new \BVApp\Lib\App($APP_SETTINGS);
 
 /**
  * set-up monolog in app singleton container
